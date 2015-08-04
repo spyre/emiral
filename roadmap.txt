@@ -1,10 +1,11 @@
 Roadmap:
 	Php
-		- Functions
+		- Functions 
 		- Arrays
 		- OOP:
 			- Classes, Interfaces, Abstract classes
 			- Static / non-static elements
+			- Exceptions and errors
 			- Constructors
 			- Inheritance
 			- Polymorphism
@@ -17,7 +18,8 @@ Roadmap:
 	JavaScript
 		- syntax
 		- objects
+		- JSON
 		- prototype JS
 		- jQuery / jQuery UI
-		- AJAX
+		- AJAX, AJAX + JSON
 	MySQL / DB
