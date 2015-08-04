@@ -1,0 +1,23 @@
+Roadmap:
+	Php
+		- Functions
+		- Arrays
+		- OOP:
+			- Classes, Interfaces, Abstract classes
+			- Static / non-static elements
+			- Constructors
+			- Inheritance
+			- Polymorphism
+		- Design patterns
+		- Php / MySQL integration
+			- DAO (Data Access Object)
+			- Model objects
+		- Template page pattern
+		- MVC architecture
+	JavaScript
+		- syntax
+		- objects
+		- prototype JS
+		- jQuery / jQuery UI
+		- AJAX
+	MySQL / DB
