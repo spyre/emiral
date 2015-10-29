@@ -23,3 +23,5 @@ Roadmap:
 		- jQuery / jQuery UI
 		- AJAX, AJAX + JSON
 	MySQL / DB
+
+	WP
