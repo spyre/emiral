@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Template</title>
+
+<script>
+
+</script>
+
+</head>
+<body>
+	<div>
+		Hello!
+	</div>
+
+	<script>
+	
+	function Post(title, content){
+		this.title = title;
+		this.content = content;
+	}
+
+	p1 = new Post('java', 'java is awesome');
+	console.log(p1);
+	console.log(p1['title']);
+
+	console.log('*************************');
+
+	p2 = {
+		'title' : 'php',
+		'content' : 'post about php'
+	};
+
+	console.log(p2);
+
+	</script>
+
+</body>
+</html>

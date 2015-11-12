@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Template</title>
+	<script>
+
+	</script>
+
+</head>
+<body>
+	<div>
+		Hello!
+
+	</div>
+<script>
+	var pers1 = {
+		'nume' : 'john',
+		'prenume' : 'vasile',
+		'email' : ['john@gmail.com', 'vasile@gmail.com'],
+	};
+
+	var pers2 = {
+		'name' : 'jim',
+		'lastname' : 'morrisson',
+		'displayinfo' : function(){
+			console.log('name: ' + this.name + ' last name: ' + this.lastname);
+		}
+	};
+	console.log(pers1);
+	console.log('**********************');
+	console.log(pers2);
+	console.log('**********************');
+	pers2.displayinfo();
+</script>
+</body>
+</html>

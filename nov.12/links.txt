@@ -1,0 +1,5 @@
+https://gist.github.com/benbalter/1607991
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript#Control_structures
+
+Namespaces:
+http://daylerees.com/php-namespaces-explained/

@@ -1,0 +1,23 @@
+- javascript arrays
+	- push
+	
+- json
+- json complex
+- json si functii
+- json si new
+- javascript si obiecte
+- cum arata JSON in consola
+- variable scope
+	LINK: https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript#Control_structures
+
+- wpdb exemple
+	LINK: https://gist.github.com/benbalter/1607991
+
+
+- wordpress theme twentyfifteen + http://www.wpbeginner.com/wp-tutorials/wordpress-custom-fields-101-tips-tricks-and-hacks/
+
+
+
+
+Namespaces:
+http://daylerees.com/php-namespaces-explained/

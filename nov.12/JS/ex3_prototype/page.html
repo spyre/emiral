@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Template</title>
+
+<script>
+
+</script>
+
+</head>
+<body>
+	<div>
+		Hello!
+	</div>
+<script>
+function Post(titlu, continut){
+	this.titlu = titlu;
+	this.continut = continut;
+
+	this.displayTitle = function(){
+		console.log('titlu: ' + this.titlu);
+
+	}
+
+	this.displayContinut = function(){
+		 console.log(' continut: ' + this.continut);
+	}
+
+
+}
+
+p1 = new Post('Pizza', 'pizza is amazing');
+
+console.log(p1);
+console.log('**********');
+p1.displayTitle();
+p1.displayContinut();
+console.log('**********');
+
+// adaugare metoda
+Post.prototype.displayAllInfo = function(){
+	console.log('TITLU: ' + this.titlu + ' CONTENT: ' + this.continut);
+}
+
+p1.displayAllInfo();
+
+
+</script>
+
+</body>
+</html>
