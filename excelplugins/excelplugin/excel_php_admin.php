@@ -115,29 +115,36 @@ if ($_POST ['excelphp_hidden'] == 'Y') {
 	
 	<?php 
 		// display required fields
-		echo 'START<br/>';
-		print_r($_REQUEST['xlscolumn']);
-		echo 'END<br/>';
+		// print_r($_REQUEST['xlscolumn']);
 		if(isset($_REQUEST['xlscolumn'])){
 			$checkedColumn = $_REQUEST['xlscolumn'];
 			$as = getSheetAsArray();
 			
 			$titleRow = $as[1];
-			echo 'TITLE ROW: <br/>';
-			print_r($titleRow);
 			echo '<br/><br/>';
-			echo '<table>';
+			echo '<table border = 1>';
+			echo '<tr>';
 			foreach($titleRow as $titleColumn){
-				
+				echo '<th>'.$titleColumn.'</th>';
 			}
-			echo '</table>'
+			echo '</tr>';
+			
 			?>
 			
 			
 			
 			<?php 
-			
-			print_r($as);
+			unset($as[1]);
+			foreach($as as $row){
+				echo '<tr>';
+				foreach($row as $column){
+					echo '<td>'.$column.'</td>';
+				}
+				
+				echo '</tr>';
+			}
+			echo '</table>';
+			// print_r($as);
 		}
 		
 	?>
