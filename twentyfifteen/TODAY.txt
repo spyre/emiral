@@ -1,0 +1,48 @@
+- exact
+- sentence
+https://premium.wpmudev.org/blog/build-your-own-custom-wordpress-search/
+
+<form role="search" method="get" id="searchform" class="searchform" action="http://www.test.dev/">
+<div>
+<label class="screen-reader-text" for="s">Search for:</label>
+<input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form>
+
+
+If we want to change the search behavior, then, all we need to do is add our own fields to the form.
+
+<form role="search" method="get" id="searchform" action="http://www.test.dev/">
+<div>
+<label for="s">Search for:</label>
+<input type="text" value="" name="s" id="s" />
+<input type="hidden" value="1" name="sentence" />
+<input type="hidden" value="product" name="post_type" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form>
+
+- coloana speciala
+- WP_Query
+
+
+
+-- SPECIAL SEARCH FORM
+
+https://codex.wordpress.org/Creating_a_Search_Page
+https://codex.wordpress.org/Class_Reference/WP_Query
+https://codex.wordpress.org/Plugin_API/Filter_Reference/posts_where
+
+
+
+
+
+
+- views
+- groups
+- select subquery
+- update where
+
+
+- HACK post meta
