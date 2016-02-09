@@ -1,0 +1,24 @@
+
+>> trimitere request token la server:
+	curl -u testclient:testpass http://localhost/my-oauth2-walkthrough/token.php -d grant_type=client_credentials
+
+>> "folosire" token:
+	curl http://localhost/my-oauth2-walkthrough/resource.php -d access_token=YOUR_TOKEN
+	
+	
+>> AUTHORIZATION TOKEN:
+	curl -u testclient:testpass http://localhost/my-oauth2-walkthrough/token.php -d 'grant_type=authorization_code&code=YOUR_CODE'
+
+TEST:
+	31caa456687d0e7a6d559f941137fb8dc51d640a
+	
+
+	curl http://localhost/my-oauth2-walkthrough/resource.php -d access_token=31caa456687d0e7a6d559f941137fb8dc51d640a
+	
+	
+	2fdff17af1749d77332a1c52247b2587aeb1f972
+	
+	curl -u testclient:testpass http://localhost/my-oauth2-walkthrough/token.php -d grant_type=authorization_code&code=25ff6d648f52a9affec152ce9af62500a4fa1fcb
+	
+	
+	curl -u testclient:testpass http://localhost/my-oauth2-walkthrough/token.php -d grant_type=authorization_code&code=805bf45e11ba9d65fbb646c01975be52dd292c15
