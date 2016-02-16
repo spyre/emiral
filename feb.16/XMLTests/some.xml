@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foods
+	xmlns:ph="http://www.pizzahut.com/ns/"
+>
+	<food>
+		<name>Pizza</name>
+		<price>23.23</price>
+		<ph:offer>yes</ph:offer>
+	</food>
+	<food>
+		<name>Shaorma</name>
+		<price>10.00</price>
+		<ph:offer>no</ph:offer>
+	</food>
+</foods>
