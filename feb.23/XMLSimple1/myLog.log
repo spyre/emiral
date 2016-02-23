@@ -1,0 +1,11 @@
+2016-02-15T23:19:49+01:00 [Foo] pizza2
+2016-02-15T23:19:49+01:00 [Foo] REZULTATE: Array
+(
+    [<?xml_version] => "1.0" encoding="UTF-8"?><Request PartnerID="asasdsadsa" Type="TrackSearch"> <TrackSearch> <Title>love</Title>    <Tags> <MainGenre>Blues</MainGenre> </Tags> <Page Number="1" Size="20"/> </TrackSearch> </Request>
+)
+
+2016-02-15T23:19:49+01:00 [Foo] REZULTATE POST: Array
+(
+    [<?xml_version] => "1.0" encoding="UTF-8"?><Request PartnerID="asasdsadsa" Type="TrackSearch"> <TrackSearch> <Title>love</Title>    <Tags> <MainGenre>Blues</MainGenre> </Tags> <Page Number="1" Size="20"/> </TrackSearch> </Request>
+)
+

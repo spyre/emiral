@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<produse>
+
+
+	<produs>
+		<nume>Pizza</nume>
+		<pret>23.23</pret>
+	</produs>
+	<produs>
+		<nume>Pasta</nume>
+		<pret>17.20</pret>
+	</produs>
+
+
+
+
+</produse>
