@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+
+RewriteCond %{REQUEST_URI} pizza/([a-z]{3})/
+RewriteRule pizza/(.*)/ http://localhost/REST/app2/index.php?param=PIZZA&param2=$1
+
+RewriteCond %{REQUEST_URI} pizza/
+RewriteRule pizza/ http://localhost/REST/app2/index.php?param=PIZZA
+
+
