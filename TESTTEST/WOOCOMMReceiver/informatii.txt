@@ -1,0 +1,20 @@
+http://woothemes.github.io/woocommerce-rest-api-docs/#rest-api-keys 
+	- url-ul cu authenticate
+
+autoload
+
+
+http://localhost/zecl_workspace/wp3/wc-api/v2
+
+http://localhost/zecl_workspace/wp3/wc-auth/v1/authorize?app_name=Woocom&scope=read_write&user_id=1&return_url=https://emiralapp-spiredev.c9users.io/WOOCOMMReceiver/receiver.php&callback_url=https://emiralapp-spiredev.c9users.io/WOOCOMMReceiver/receiver.php   -> generare key, secret
+
+
+composer
+{
+        "require": {                
+                "raveren/kint": "0.9"
+        }
+}
+
+
+API work

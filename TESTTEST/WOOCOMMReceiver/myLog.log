@@ -1,0 +1,61 @@
+2016-08-02T10:31:10+02:00 [Foo] pizza ii faina!
+2016-08-02T10:33:43+02:00 [Foo] pizza ii faina!
+2016-08-02T10:33:43+02:00 [Foo] Informatii REQ: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:33:43+02:00 [Foo] Informatii GET: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:33:43+02:00 [Foo] Informatii POST: Array
+(
+)
+
+2016-08-02T10:35:57+02:00 [Foo] pizza ii faina!
+2016-08-02T10:35:57+02:00 [Foo] Informatii REQ: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:35:57+02:00 [Foo] Informatii GET: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:35:57+02:00 [Foo] Informatii POST: Array
+(
+)
+
+2016-08-02T10:40:05+02:00 [Foo] ----------------------------------------
+2016-08-02T10:40:05+02:00 [Foo] Informatii REQ: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:40:05+02:00 [Foo] Informatii GET: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:40:05+02:00 [Foo] Informatii POST: Array
+(
+)
+
+2016-08-02T10:40:13+02:00 [Foo] ----------------------------------------
+2016-08-02T10:40:13+02:00 [Foo] Informatii REQ: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:40:13+02:00 [Foo] Informatii GET: Array
+(
+    [info] => test
+)
+
+2016-08-02T10:40:13+02:00 [Foo] Informatii POST: Array
+(
+)
+
