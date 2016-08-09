@@ -6,7 +6,7 @@ autoload
 
 http://localhost/zecl_workspace/wp3/wc-api/v2
 
-http://localhost/zecl_workspace/wp3/wc-auth/v1/authorize?app_name=Woocom&scope=read_write&user_id=1&return_url=https://emiralapp-spiredev.c9users.io/WOOCOMMReceiver/receiver.php&callback_url=https://emiralapp-spiredev.c9users.io/WOOCOMMReceiver/receiver.php   -> generare key, secret
+http://localhost/zecl_workspace/wp3/wc-auth/v1/authorize?app_name=Woocom&scope=read_write&user_id=1&return_url=https://emiralapp-spiredev.c9users.io/WOOCOMMReceiver/returnurl.php&callback_url=https://emiralapp-spiredev.c9users.io/WOOCOMMReceiver/receiver.php   -> generare key, secret
 
 
 composer
