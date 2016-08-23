@@ -1,0 +1,3 @@
+http://php.net/manual/ro/class.splobserver.php
+https://www.sitepoint.com/understanding-the-observer-pattern/
+http://stackoverflow.com/questions/13774149/how-is-splsubject-splobserver-useful
