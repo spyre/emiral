@@ -1,0 +1,5 @@
+http://php.net/manual/en/function.parse-url.php
+http://www.if-not-true-then-false.com/2009/php-tip-convert-stdclass-object-to-multidimensional-array-and-convert-multidimensional-array-to-stdclass-object/
+
+al
+db
