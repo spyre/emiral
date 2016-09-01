@@ -1,0 +1,5 @@
+stdClass, variables as class name
+autoload 
+curl     interesant: http://code.tutsplus.com/tutorials/techniques-for-mastering-curl--net-8470
+observer
+regexp   https://regexone.com/lesson/matching_characters
